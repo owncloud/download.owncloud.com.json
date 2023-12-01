@@ -1,0 +1,123 @@
+{
+"main":
+  [
+    { 
+      "type": "ZIP Archive",
+      "version": "10.13.3",
+      "label": ".ZIP",
+      "url": "https://download.owncloud.com/server/stable/owncloud-complete-20231121.zip",
+      "md5": "https://download.owncloud.com/server/stable/owncloud-complete-20231121.zip.md5",
+      "sha256": "https://download.owncloud.com/server/stable/owncloud-complete-20231121.zip.sha256",
+      "asc": "https://download.owncloud.com/server/stable/owncloud-complete-20231121.zip.asc"
+    },
+    { 
+      "type": "Tarball",
+      "version": "10.13.3",
+      "label": ".TAR",
+      "url": "https://download.owncloud.com/server/stable/owncloud-complete-20231121.tar.bz2",
+      "md5": "https://download.owncloud.com/server/stable/owncloud-complete-20231121.tar.bz2.md5",
+      "sha256": "https://download.owncloud.com/server/stable/owncloud-complete-20231121.tar.bz2.sha256",
+      "asc": "https://download.owncloud.com/server/stable/owncloud-complete-20231121.tar.bz2.asc"
+    }
+  ],
+"minimal":
+  [
+    {
+      "type": "ZIP Archive",
+      "version": "10.13.3",
+      "label": ".ZIP",
+      "url": "https://download.owncloud.com/server/stable/owncloud-10.13.3.zip",
+      "md5": "https://download.owncloud.com/server/stable/owncloud-10.13.3.zip.md5",
+      "sha256": "https://download.owncloud.com/server/stable/owncloud-10.13.3.zip.sha256",
+      "asc": "https://download.owncloud.com/server/stable/owncloud-10.13.3.zip.asc"
+    },
+    {
+      "type": "Tarball",
+      "version": "10.13.3",
+      "label": ".TAR",
+      "url": "https://download.owncloud.com/server/stable/owncloud-10.13.3.tar.bz2",
+      "md5": "https://download.owncloud.com/server/stable/owncloud-10.13.3.tar.bz2.md5",
+      "sha256": "https://download.owncloud.com/server/stable/owncloud-10.13.3.tar.bz2.sha256",
+      "asc": "https://download.owncloud.com/server/stable/owncloud-10.13.3.tar.bz2.asc"
+    }
+  ],
+"qa":
+  [
+    {
+      "type": "ZIP Archive",
+      "version": "10.13.3",
+      "label": ".ZIP",
+      "url": "https://download.owncloud.com/server/testing/owncloud-complete-20231121-qa.zip",
+      "md5": "https://download.owncloud.com/server/testing/owncloud-complete-20231121-qa.zip.md5",
+      "sha256": "https://download.owncloud.com/server/testing/owncloud-complete-20231121-qa.zip.sha256",
+      "asc": "https://download.owncloud.com/server/testing/owncloud-complete-20231121-qa.zip.asc"
+    },
+    {
+      "type": "Tarball",
+      "version": "10.13.3",
+      "label": ".TAR",
+      "url": "https://download.owncloud.com/server/testing/owncloud-complete-20231121-qa.tar.bz2",
+      "md5": "https://download.owncloud.com/server/testing/owncloud-complete-20231121-qa.tar.bz2.md5",
+      "sha256": "https://download.owncloud.com/server/testing/owncloud-complete-20231121-qa.tar.bz2.sha256",
+      "asc": "https://download.owncloud.com/server/testing/owncloud-complete-20231121-qa.tar.bz2.asc"
+    }
+  ],
+"qa-minimal":
+  [
+    {
+      "type": "ZIP Archive",
+      "version": "10.13.3",
+      "label": ".ZIP",
+      "url": "https://download.owncloud.com/server/testing/owncloud-10.13.3-qa.zip",
+      "md5": "https://download.owncloud.com/server/testing/owncloud-10.13.3-qa.zip.md5",
+      "sha256": "https://download.owncloud.com/server/testing/owncloud-10.13.3-qa.zip.sha256",
+      "asc": "https://download.owncloud.com/server/testing/owncloud-10.13.3-qa.zip.asc"
+    },
+    {
+      "type": "Tarball",
+      "version": "10.13.3",
+      "label": ".TAR",
+      "url": "https://download.owncloud.com/server/testing/owncloud-10.13.3-qa.tar.bz2",
+      "md5": "https://download.owncloud.com/server/testing/owncloud-10.13.3-qa.tar.bz2.md5",
+      "sha256": "https://download.owncloud.com/server/testing/owncloud-10.13.3-qa.tar.bz2.sha256",
+      "asc": "https://download.owncloud.com/server/testing/owncloud-10.13.3-qa.tar.bz2.asc"
+    }
+  ],
+"docker":
+  [
+    {
+       "label": "Docker instructions",
+       "url": "https://doc.owncloud.com/server/latest/admin_manual/installation/docker/"
+    },
+    {
+       "label": "Go to images",
+       "url": "https://hub.docker.com/r/owncloud/server"
+    }
+  ],
+"linux":
+  [
+    {
+      "label": "Go to packages",
+      "url": "https://software.opensuse.org//download.html?project=isv:ownCloud:server:10&package=owncloud-complete-files"
+    }
+  ],
+"appliance":
+  [
+    {
+      "label": "ESX",
+      "url": "https://appcenter.software-univention.de/univention-apps/current/owncloud/Univention-App-owncloud-ESX.ova"
+    },
+    {
+      "label": "Virtual Box",
+      "url": "https://appcenter.software-univention.de/univention-apps/current/owncloud/Univention-App-owncloud-virtualbox.ova"
+    },
+    {
+      "label": "QCOW 2",
+      "url": "https://appcenter.software-univention.de/univention-apps/current/owncloud/Univention-App-owncloud-KVM.qcow2"
+    },
+    {
+      "label": "VMWare",
+      "url": "https://appcenter.software-univention.de/univention-apps/current/owncloud/Univention-App-owncloud-vmware.zip"
+    }
+  ]
+}
