@@ -1,0 +1,52 @@
+desktop
+├── linux
+│   ├── diplay_name
+│   │   └── Linux
+│   ├── display_version
+│   │   └── 5.2.0
+│   ├── primay_button_text
+│   │   └── Linux Installation Guide
+│   ├── primary_button_url
+│   │   └── https://download.owncloud.com/desktop/ownCloud/stable/latest/linux/download/
+│   ├── secondary_button_text
+│   │   └── Download AppImage
+│   ├── secondary_button_url
+│   │   └── https://download.owncloud.com/desktop/ownCloud/stable/5.2.0.12726/linux-appimage/ownCloud-5.2.0.12726-x86_64.AppImage
+│   ├── note_text
+│   │   └── NULL
+│   └── note_url
+│       └── NULL
+├── macos
+│   ├── diplay_name
+│   │   └── Mac OS
+│   ├── display_version
+│   │   └── 5.2.0
+│   ├── primay_button_text
+│   │   └── Download for Mac OS
+│   ├── primary_button_url
+│   │   └── https://download.owncloud.com/desktop/ownCloud/stable/5.2.0.12726/mac/ownCloud-5.2.0.12726-x86_64.pkg
+│   ├── secondary_button_text
+│   │   └── Download ARM64 (Apple Silicon)
+│   ├── secondary_button_url
+│   │   └── https://download.owncloud.com/desktop/ownCloud/stable/5.2.0.12726/mac/ownCloud-5.2.0.12726-arm64.pkg
+│   ├── note_text
+│   │   └── System requirements:<br>64bit Mac OS X 10.15+
+│   └── note_url
+│       └── https://doc.owncloud.com/desktop/5.2/installing.html#system-requirements
+└── windows
+    ├── diplay_name
+    │   └── Windows
+    ├── display_version
+    │   └── 5.2.0
+    ├── primay_button_text
+    │   └── Download for Windows
+    ├── primary_button_url
+    │   └── https://download.owncloud.com/desktop/ownCloud/stable/5.2.0.12726/win/ownCloud-5.2.0.12726.x64.msi
+    ├── secondary_button_text
+    │   └── NULL
+    ├── secondary_button_url
+    │   └── NULL
+    ├── note_text
+    │   └── System requirements:<br>Windows 10 or later (x64)
+    └── note_url
+        └── https://doc.owncloud.com/desktop/5.2/installing.html#system-requirements
