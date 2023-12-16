@@ -3,84 +3,84 @@
   [
     { 
       "type": "ZIP Archive",
-      "version": "10.13.3",
+      "version": "10.13.4",
       "label": ".ZIP",
-      "url": "https://download.owncloud.com/server/stable/owncloud-complete-20231121.zip",
-      "md5": "https://download.owncloud.com/server/stable/owncloud-complete-20231121.zip.md5",
-      "sha256": "https://download.owncloud.com/server/stable/owncloud-complete-20231121.zip.sha256",
-      "asc": "https://download.owncloud.com/server/stable/owncloud-complete-20231121.zip.asc"
+      "url": "https://download.owncloud.com/server/stable/owncloud-complete-20231213.zip",
+      "md5": "https://download.owncloud.com/server/stable/owncloud-complete-20231213.zip.md5",
+      "sha256": "https://download.owncloud.com/server/stable/owncloud-complete-20231213.zip.sha256",
+      "asc": "https://download.owncloud.com/server/stable/owncloud-complete-20231213.zip.asc"
     },
     { 
       "type": "Tarball",
       "version": "10.13.3",
       "label": ".TAR",
-      "url": "https://download.owncloud.com/server/stable/owncloud-complete-20231121.tar.bz2",
-      "md5": "https://download.owncloud.com/server/stable/owncloud-complete-20231121.tar.bz2.md5",
-      "sha256": "https://download.owncloud.com/server/stable/owncloud-complete-20231121.tar.bz2.sha256",
-      "asc": "https://download.owncloud.com/server/stable/owncloud-complete-20231121.tar.bz2.asc"
+      "url": "https://download.owncloud.com/server/stable/owncloud-complete-20231213.tar.bz2",
+      "md5": "https://download.owncloud.com/server/stable/owncloud-complete-20231213.tar.bz2.md5",
+      "sha256": "https://download.owncloud.com/server/stable/owncloud-complete-20231213.tar.bz2.sha256",
+      "asc": "https://download.owncloud.com/server/stable/owncloud-complete-20231213.tar.bz2.asc"
     }
   ],
 "minimal":
   [
     {
       "type": "ZIP Archive",
-      "version": "10.13.3",
+      "version": "10.13.4",
       "label": ".ZIP",
-      "url": "https://download.owncloud.com/server/stable/owncloud-10.13.3.zip",
-      "md5": "https://download.owncloud.com/server/stable/owncloud-10.13.3.zip.md5",
-      "sha256": "https://download.owncloud.com/server/stable/owncloud-10.13.3.zip.sha256",
-      "asc": "https://download.owncloud.com/server/stable/owncloud-10.13.3.zip.asc"
+      "url": "https://download.owncloud.com/server/stable/owncloud-10.13.4.zip",
+      "md5": "https://download.owncloud.com/server/stable/owncloud-10.13.4.zip.md5",
+      "sha256": "https://download.owncloud.com/server/stable/owncloud-10.13.4.zip.sha256",
+      "asc": "https://download.owncloud.com/server/stable/owncloud-10.13.4.zip.asc"
     },
     {
       "type": "Tarball",
-      "version": "10.13.3",
+      "version": "10.13.4",
       "label": ".TAR",
-      "url": "https://download.owncloud.com/server/stable/owncloud-10.13.3.tar.bz2",
-      "md5": "https://download.owncloud.com/server/stable/owncloud-10.13.3.tar.bz2.md5",
-      "sha256": "https://download.owncloud.com/server/stable/owncloud-10.13.3.tar.bz2.sha256",
-      "asc": "https://download.owncloud.com/server/stable/owncloud-10.13.3.tar.bz2.asc"
+      "url": "https://download.owncloud.com/server/stable/owncloud-10.13.4.tar.bz2",
+      "md5": "https://download.owncloud.com/server/stable/owncloud-10.13.4.tar.bz2.md5",
+      "sha256": "https://download.owncloud.com/server/stable/owncloud-10.13.4.tar.bz2.sha256",
+      "asc": "https://download.owncloud.com/server/stable/owncloud-10.13.4.tar.bz2.asc"
     }
   ],
 "qa":
   [
     {
       "type": "ZIP Archive",
-      "version": "10.13.3",
+      "version": "10.13.4",
       "label": ".ZIP",
-      "url": "https://download.owncloud.com/server/testing/owncloud-complete-20231121-qa.zip",
-      "md5": "https://download.owncloud.com/server/testing/owncloud-complete-20231121-qa.zip.md5",
-      "sha256": "https://download.owncloud.com/server/testing/owncloud-complete-20231121-qa.zip.sha256",
-      "asc": "https://download.owncloud.com/server/testing/owncloud-complete-20231121-qa.zip.asc"
+      "url": "https://download.owncloud.com/server/testing/owncloud-complete-2023121-qa.zip",
+      "md5": "https://download.owncloud.com/server/testing/owncloud-complete-2023121-qa.zip.md5",
+      "sha256": "https://download.owncloud.com/server/testing/owncloud-complete-2023121-qa.zip.sha256",
+      "asc": "https://download.owncloud.com/server/testing/owncloud-complete-2023121-qa.zip.asc"
     },
     {
       "type": "Tarball",
       "version": "10.13.3",
       "label": ".TAR",
-      "url": "https://download.owncloud.com/server/testing/owncloud-complete-20231121-qa.tar.bz2",
-      "md5": "https://download.owncloud.com/server/testing/owncloud-complete-20231121-qa.tar.bz2.md5",
-      "sha256": "https://download.owncloud.com/server/testing/owncloud-complete-20231121-qa.tar.bz2.sha256",
-      "asc": "https://download.owncloud.com/server/testing/owncloud-complete-20231121-qa.tar.bz2.asc"
+      "url": "https://download.owncloud.com/server/testing/owncloud-complete-20231213-qa.tar.bz2",
+      "md5": "https://download.owncloud.com/server/testing/owncloud-complete-20231213-qa.tar.bz2.md5",
+      "sha256": "https://download.owncloud.com/server/testing/owncloud-complete-20231213-qa.tar.bz2.sha256",
+      "asc": "https://download.owncloud.com/server/testing/owncloud-complete-20231213-qa.tar.bz2.asc"
     }
   ],
 "qa-minimal":
   [
     {
       "type": "ZIP Archive",
-      "version": "10.13.3",
+      "version": "10.13.4",
       "label": ".ZIP",
-      "url": "https://download.owncloud.com/server/testing/owncloud-10.13.3-qa.zip",
-      "md5": "https://download.owncloud.com/server/testing/owncloud-10.13.3-qa.zip.md5",
-      "sha256": "https://download.owncloud.com/server/testing/owncloud-10.13.3-qa.zip.sha256",
-      "asc": "https://download.owncloud.com/server/testing/owncloud-10.13.3-qa.zip.asc"
+      "url": "https://download.owncloud.com/server/testing/owncloud-10.13.4-qa.zip",
+      "md5": "https://download.owncloud.com/server/testing/owncloud-10.13.4-qa.zip.md5",
+      "sha256": "https://download.owncloud.com/server/testing/owncloud-10.13.4-qa.zip.sha256",
+      "asc": "https://download.owncloud.com/server/testing/owncloud-10.13.4-qa.zip.asc"
     },
     {
       "type": "Tarball",
-      "version": "10.13.3",
+      "version": "10.13.4",
       "label": ".TAR",
-      "url": "https://download.owncloud.com/server/testing/owncloud-10.13.3-qa.tar.bz2",
-      "md5": "https://download.owncloud.com/server/testing/owncloud-10.13.3-qa.tar.bz2.md5",
-      "sha256": "https://download.owncloud.com/server/testing/owncloud-10.13.3-qa.tar.bz2.sha256",
-      "asc": "https://download.owncloud.com/server/testing/owncloud-10.13.3-qa.tar.bz2.asc"
+      "url": "https://download.owncloud.com/server/testing/owncloud-10.13.4-qa.tar.bz2",
+      "md5": "https://download.owncloud.com/server/testing/owncloud-10.13.4-qa.tar.bz2.md5",
+      "sha256": "https://download.owncloud.com/server/testing/owncloud-10.13.4-qa.tar.bz2.sha256",
+      "asc": "https://download.owncloud.com/server/testing/owncloud-10.13.4-qa.tar.bz2.asc"
     }
   ],
 "docker":
