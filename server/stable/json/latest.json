@@ -12,7 +12,7 @@
     },
     { 
       "type": "Tarball",
-      "version": "10.13.3",
+      "version": "10.13.4",
       "label": ".TAR",
       "url": "https://download.owncloud.com/server/stable/owncloud-complete-20231213.tar.bz2",
       "md5": "https://download.owncloud.com/server/stable/owncloud-complete-20231213.tar.bz2.md5",
@@ -54,7 +54,7 @@
     },
     {
       "type": "Tarball",
-      "version": "10.13.3",
+      "version": "10.13.4",
       "label": ".TAR",
       "url": "https://download.owncloud.com/server/testing/owncloud-complete-20231213-qa.tar.bz2",
       "md5": "https://download.owncloud.com/server/testing/owncloud-complete-20231213-qa.tar.bz2.md5",
