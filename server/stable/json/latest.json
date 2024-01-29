@@ -86,17 +86,20 @@
 "docker":
   [
     {
-       "label": "Docker instructions",
-       "url": "https://doc.owncloud.com/server/latest/admin_manual/installation/docker/"
+      "type": "instructions",
+      "label": "Docker instructions",
+      "url": "https://doc.owncloud.com/server/latest/admin_manual/installation/docker/"
     },
     {
-       "label": "Go to images",
-       "url": "https://hub.docker.com/r/owncloud/server"
+      "type": "images",
+      "label": "Go to images",
+      "url": "https://hub.docker.com/r/owncloud/server"
     }
   ],
 "linux":
   [
     {
+      "type": "packages",
       "label": "Go to packages",
       "url": "https://software.opensuse.org//download.html?project=isv:ownCloud:server:10&package=owncloud-complete-files"
     }
@@ -104,18 +107,22 @@
 "appliance":
   [
     {
+      "type": "ESX",
       "label": "ESX",
       "url": "https://appcenter.software-univention.de/univention-apps/current/owncloud/Univention-App-owncloud-ESX.ova"
     },
     {
+      "type": "Virtual Box",
       "label": "Virtual Box",
       "url": "https://appcenter.software-univention.de/univention-apps/current/owncloud/Univention-App-owncloud-virtualbox.ova"
     },
     {
+      "type": "QCOW 2",
       "label": "QCOW 2",
       "url": "https://appcenter.software-univention.de/univention-apps/current/owncloud/Univention-App-owncloud-KVM.qcow2"
     },
     {
+      "type": "VMWare",
       "label": "VMWare",
       "url": "https://appcenter.software-univention.de/univention-apps/current/owncloud/Univention-App-owncloud-vmware.zip"
     }
