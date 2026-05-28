@@ -1,18 +1,87 @@
-server/stable/json/latest.json
-==============================
+# ownCloud Download Metadata
 
-This file represents the available variables to describe a server aka core aka OC10 release.
-The file models the structure visible in wordpress as json.
+<!-- OSPO-managed README | Generated: 2026-04-16 | v2 -->
 
-The section "main" is the table next to the text block "ownCloud 10 Source packages"
-The section "minimal" is normally collapsed behind "Need a minimal version to ...?"
-Sections "qa" and "qa-minimal" are not shown. But they exist in the download area, so I've added that for completeness.
-Sections "docker", "linux", and "appliance" all have just one or emultiple buttons. I've providedd lists 
-of label + url for these buttons, in the order of appearance.
+[![License](https://img.shields.io/badge/License-See%20Repository-blue.svg)](LICENSE) [![ownCloud OSPO](https://img.shields.io/badge/OSPO-ownCloud-blue)](https://kiteworks.com/opensource)
 
-This latest.json only represents one release.
-If needed, historic versions could be additional files with version number or timestamp a name.
+A data repository containing JSON files that describe available ownCloud release packages for the download page. These JSON files model the structure of download links visible on the ownCloud website, including server source packages, Docker images, Linux packages, and appliance downloads.
 
-We introduce a /json/ subfolder here, as all oc10 releases otherwise share the same main folder.
+## Getting Started
 
+This repository contains JSON data files describing ownCloud releases. Browse the `server/` and `desktop/` directories for the release metadata files. No build step is required.
 
+## Documentation
+
+- [ownCloud Downloads](https://owncloud.com/download-server/)
+
+## Part of ownCloud Infrastructure
+
+This repository provides structured release metadata used by the ownCloud download infrastructure. It covers [ownCloud Server](https://github.com/owncloud/core) and [Desktop Client](https://github.com/owncloud/client) releases.
+
+> **Note:** This repository is a data store containing JSON files only, with no executable code.
+
+## Community & Support
+
+**[Star](https://github.com/owncloud/download.owncloud.com.json)** this repo and **Watch** for release notifications!
+
+- [ownCloud Website](https://owncloud.com)
+- [Community Discussions](https://github.com/orgs/owncloud/discussions)
+- [Matrix Chat](https://app.element.io/#/room/#owncloud:matrix.org)
+- [Documentation](https://doc.owncloud.com)
+- [Enterprise Support](https://owncloud.com/contact-us/)
+- [OSPO Home](https://kiteworks.com/opensource)
+
+## Contributing
+
+We welcome contributions! Please read the [Contributing Guidelines](CONTRIBUTING.md)
+and our [Code of Conduct](CODE_OF_CONDUCT.md) before getting started.
+
+### Workflow
+
+- **Rebase Early, Rebase Often!** We use a rebase workflow. Always rebase on the target branch before submitting a PR.
+- **Dependabot**: Automated dependency updates are managed via Dependabot. Review and merge dependency PRs promptly.
+- **Signed Commits**: All commits **must** be PGP/GPG signed. See [GitHub's signing guide](https://docs.github.com/en/authentication/managing-commit-signature-verification).
+- **DCO Sign-off**: Every commit must carry a `Signed-off-by` line:
+  ```
+  git commit -s -S -m "your commit message"
+  ```
+- **GitHub Actions Policy**: Workflows may only use actions that are (a) owned by `owncloud`, (b) created by GitHub (`actions/*`), or (c) verified in the GitHub Marketplace.
+
+## Security
+
+**Do not open a public GitHub issue for security vulnerabilities.**
+
+Report vulnerabilities at **<https://security.owncloud.com>** -- see [SECURITY.md](SECURITY.md).
+
+Bug bounty: [YesWeHack ownCloud Program](https://yeswehack.com/programs/owncloud-bug-bounty-program)
+
+## License
+
+See [LICENSE](LICENSE) for license details.
+
+## About the ownCloud OSPO
+
+The [Kiteworks Open Source Program Office](https://kiteworks.com/opensource), operating under
+the [ownCloud](https://owncloud.com) brand, launched on May 5, 2026, to steward the open source
+ecosystem around ownCloud's products. The OSPO ensures transparent governance, license compliance,
+community health, and sustainable collaboration between the open source community and
+[Kiteworks](https://www.kiteworks.com), which acquired ownCloud in 2023.
+
+- **OSPO Home**: <https://kiteworks.com/opensource>
+- **GitHub**: <https://github.com/owncloud>
+- **ownCloud**: <https://owncloud.com>
+
+For questions about the OSPO or licensing, contact ospo@kiteworks.com.
+
+### License Migration to Apache 2.0
+
+The OSPO is driving a strategic relicensing of ownCloud repositories toward the
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0), following
+the [Apache Software Foundation's third-party license policy](https://www.apache.org/legal/resolved.html).
+
+Individual repositories will migrate as their audit is completed. The LICENSE file
+in each repo reflects its **current** license status (not the target).
+
+**Current license: Not detected.** The OSPO will determine the current license status of this
+repository before planning any migration steps. If you know the intended license, please open an
+issue or contact ospo@kiteworks.com.
